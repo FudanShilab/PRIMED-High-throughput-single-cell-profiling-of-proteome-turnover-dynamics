@@ -26,7 +26,7 @@
 - **IR Image (MATLAB):**  
   Infrared data matrices (.dat) obtained from Cytospec at specific wavenumbers.
 - **IR Spectra (MATLAB):**
-  4-D .mat file exported from Cytospec, where the first three dimensions represent the x-coordinate, y-coordinate, and wavenumber, and the fourth dimension indicates whether the data have been preprocessed.
+  4-D.mat file exported from Cytospec, where the first three dimensions represent the x-coordinate, y-coordinate, and wavenumber, and the fourth dimension indicates whether the data have been preprocessed.
 - **UMAP Analysis (Python):**  
   `Multiple spectral .csv files from path/to/your/data, each representing single-cell spectra from one experimental group.` 
 - **HCA Dendrogram Analysis (Python):**  
