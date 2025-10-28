@@ -1,6 +1,6 @@
 # PRIMED-High-throughput-single-cell-profiling-of-proteome-turnover-dynamics
 *Authors: Yuchen Sun+, Minqian Wei+, Lixue Shi**
-- This package provides MATLAB and Python scripts for baseline correction, data format conversion, protein turnover rate quantification, outlier removal, spectral normalization, single-cell spectrum extraction, and full-spectrum dimensionality reduction analysis (UMAP and HCA) described in the paper.
+-This package provides MATLAB and Python scripts for baseline correction, data format conversion, protein turnover rate quantification, outlier removal, spectral normalization, single-cell spectrum extraction, and full-spectrum dimensionality reduction analysis (UMAP and HCA) described in the paper.
 
 ---
 
@@ -24,9 +24,9 @@
 
 ## Data Format
 - **IR Image (MATLAB):**  
-  Infrared data matrices (.dat) obtained from Cytospec at specific wavenumbers.
-- **IR Spectra (MATLAB):**
-  4-D.mat file exported from Cytospec, where the first three dimensions represent the x-coordinate, y-coordinate, and wavenumber, and the fourth dimension indicates whether the data have been preprocessed.
+  `Infrared data matrices (.dat) obtained from Cytospec at specific wavenumbers.`
+- **IR Spectrum (MATLAB):**
+  `4-D .mat file exported from Cytospec, where the first three dimensions represent the x-coordinate, y-coordinate, and wavenumber, and the fourth dimension indicates whether the data have been preprocessed.`
 - **UMAP Analysis (Python):**  
   `Multiple spectral .csv files from path/to/your/data, each representing single-cell spectra from one experimental group.` 
 - **HCA Dendrogram Analysis (Python):**  
