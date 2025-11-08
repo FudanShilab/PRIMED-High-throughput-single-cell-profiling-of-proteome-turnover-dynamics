@@ -22,7 +22,6 @@
 % Citation:
 %   If you use this code, please cite the above article.
 %
-% License:For academic use only.
 % =========================================================================
 
 function [ spectra ] = spcnormalize(spectrainput)
@@ -30,4 +29,5 @@ function [ spectra ] = spcnormalize(spectrainput)
 spectra = spectrainput;
 spectra = spectra ./ max(spectra,[],2);
 end
+
 
