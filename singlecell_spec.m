@@ -1,3 +1,6 @@
+% Copyright (c) 2025 Lixue Shi and collaborators
+% Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+%
 % Script Name: singlecell_spec.m
 % Description: This script extracts single-cell infrared spectra from 
 % segmented FTIR data in the fingerprint (1000–1800 cm⁻¹) and C–D 
