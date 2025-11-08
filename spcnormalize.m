@@ -1,4 +1,6 @@
 %% =========================================================================
+% Copyright (c) 2025 Lixue Shi and collaborators
+% Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
 % Script Name: spcnormalize.m
 % Description:
 % This function performs row-wise min–max normalization on input spectral 
@@ -29,5 +31,6 @@ function [ spectra ] = spcnormalize(spectrainput)
 spectra = spectrainput;
 spectra = spectra ./ max(spectra,[],2);
 end
+
 
 
