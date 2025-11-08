@@ -1,4 +1,7 @@
 %% =========================================================================
+% Copyright (c) 2025 Lixue Shi and collaborators
+% Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+%
 % Script Name: bc_rubber.m
 % Description:
 % This function performs baseline correction on input spectral data using 
@@ -78,3 +81,4 @@ else
     y = l(2:end);
 end;
 %> @endcond
+
