@@ -26,7 +26,6 @@
 % Citation:
 %   If you use this code, please cite the above article.
 %
-% License:For academic use only.
 % =========================================================================
 %%
 clc;close all;clear
