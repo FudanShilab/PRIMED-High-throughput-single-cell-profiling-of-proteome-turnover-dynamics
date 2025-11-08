@@ -1,4 +1,7 @@
 #=========================================================================
+# Copyright (c) 2025 Lixue Shi and collaborators
+# Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+
 # Script Name: Dimensionality reduction and visualization of FTIR single-cell spectra.py
 
 # Description:This script performs dimensionality reduction and visualization
@@ -331,6 +334,7 @@ def resize_and_save(event):
     plt.savefig(analysis_type + '.jpg', dpi=1200)
     ax_button.set_visible(True)
     print('Image resized and saved as ' + analysis_type + '.jpg')
+
 
 
 
