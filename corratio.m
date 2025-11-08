@@ -27,7 +27,6 @@
 % Citation:
 %   If you use this code, please cite the above article.
 %
-% License:For academic use only.
 % =========================================================================
 function [COR_A,COR_B]=corratio(A,B)
 avg1=mean(A);avg2=mean(B);
@@ -51,3 +50,4 @@ end
 COR_A=A;
 
 COR_B=B;
+
