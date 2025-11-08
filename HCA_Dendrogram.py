@@ -25,7 +25,8 @@
 # Citation:
 #   If you use this code, please cite the above article.
 #
-# License:For academic use only.
+# Copyright (c) 2025 Lixue Shi and collaborators
+# Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
 # =========================================================================
 import pandas as pd
 from scipy.cluster.hierarchy import linkage, dendrogram
@@ -76,3 +77,4 @@ print(f"Dendrogram saved as {output_filename}")
 
 # ==== Close Plot ====
 plt.close()
+
