@@ -1,4 +1,7 @@
 %% =========================================================================
+% Copyright (c) 2025 Lixue Shi and collaborators
+% Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+%
 % Script Name: dataprocessing_baselinecorrection.m
 % Description:
 % This script performs baseline correction on preprocessed FTIR hyperspectral data.
@@ -47,5 +50,6 @@ pspec_bc=bc_rubber(pspec);
 %% Save data
 C=reshape(pspec_bc,a,b,c);
 save('processed_data.mat','C','Minfo');
+
 
 
