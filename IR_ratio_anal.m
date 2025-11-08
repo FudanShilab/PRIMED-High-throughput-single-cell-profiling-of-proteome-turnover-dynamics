@@ -11,6 +11,9 @@
 % unmixing to separate ¹²C- and ¹³C-amide components, and computes derived 
 % ratios such as  ¹²C-to-total amide ratios. Outlier cells are then removed using 
 % filters (corratio) for reliable downstream quantitative analysis.
+% The absorbance of cells at 1614, 1645, and 2212 cm⁻¹ can be obtained from 
+% the 194# and 204# columns of the single-cell spectral data file spec_fp, and 
+% the 52# column of spec_cd.
 %
 % Input: 
 % segment: Cell segmentation mask obtained from CellProfiler.
