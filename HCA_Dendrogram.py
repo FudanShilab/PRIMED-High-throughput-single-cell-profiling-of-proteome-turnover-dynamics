@@ -1,5 +1,8 @@
 #=========================================================================
-# Script Name: Hierarchical clustering analysis of averaged single-cell FTIR spectra.py
+# Copyright (c) 2025 Lixue Shi and collaborators
+# Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+
+#Script Name: Hierarchical clustering analysis of averaged single-cell FTIR spectra.py
 
 # Description:This script performs hierarchical clustering analysis (HCA) on averaged
 # single-cell FTIR spectral data. It reads a combined spectral dataset, computes the mean
@@ -25,8 +28,6 @@
 # Citation:
 #   If you use this code, please cite the above article.
 #
-# Copyright (c) 2025 Lixue Shi and collaborators
-# Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
 # =========================================================================
 import pandas as pd
 from scipy.cluster.hierarchy import linkage, dendrogram
@@ -77,4 +78,5 @@ print(f"Dendrogram saved as {output_filename}")
 
 # ==== Close Plot ====
 plt.close()
+
 
