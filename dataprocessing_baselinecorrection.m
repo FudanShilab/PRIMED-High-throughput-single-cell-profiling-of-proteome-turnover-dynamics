@@ -26,7 +26,6 @@
 % Citation:
 %   If you use this code, please cite the above article.
 %
-% License:For academic use only.
 % =========================================================================
 %%
 clc;clear;close all;
@@ -50,6 +49,7 @@ pspec_bc=bc_rubber(pspec);
 %% Save data
 C=reshape(pspec_bc,a,b,c);
 save('processed_data.mat','C','Minfo');
+
 
 
 
