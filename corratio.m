@@ -1,4 +1,7 @@
 %% =========================================================================
+% Copyright (c) 2025 Lixue Shi and collaborators
+% Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+%
 % Script Name: corratio.m
 % Description:
 % This function removes outlier points from two corresponding datasets A and B 
@@ -46,4 +49,5 @@ for i = 1:1:n
 end
 
 COR_A=A;
+
 COR_B=B;
