@@ -23,7 +23,6 @@
 % Citation:
 %   If you use this code, please cite the above article.
 %
-% License:For academic use only.
 % =========================================================================
 function CELL_SPEC = spec_export(A,I,W)
 m_seg= max(I,[],'all');
