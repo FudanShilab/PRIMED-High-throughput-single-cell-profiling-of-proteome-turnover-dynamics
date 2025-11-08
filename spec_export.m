@@ -1,4 +1,7 @@
 %% =========================================================================
+% Copyright (c) 2025 Lixue Shi and collaborators
+% Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
+%
 % Script Name: spec_export.m
 % Description:
 % This function extracts and exports summed single-cell infrared spectra 
